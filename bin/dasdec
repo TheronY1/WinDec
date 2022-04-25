@@ -1,0 +1,7 @@
+while :
+    do
+     taskkill /F /IM multimon-ng.exe
+    ./demod </dev/null &>/dev/null &
+    ./monitor
+done
+
